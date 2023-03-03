@@ -1,6 +1,6 @@
 name: azul_envato_checker
 description: Azul check Envato purchaseKey
-version: 0.0.1
+version: 0.0.1+12
 homepage: https://github.com/codemarket-azul/Azul-Envato-Checker-package.git
 
 environment:
@@ -11,10 +11,14 @@ dependencies:
   flutter:
     sdk: flutter
 
+  dio: ^5.0.1
+  package_info: ^2.0.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.1
+
 
 
 flutter:
